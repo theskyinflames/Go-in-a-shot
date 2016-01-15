@@ -1,5 +1,5 @@
 # Go in a shot
-A brief and fucking fast guide to introduce yourself in Go on a dirty way.
+A brief and fucking fast guide to introduce yourself in Go in a dirty way.
 
 ## Motivation
 I have wrote this short guide to Go why a lot of people increasingly ask me to reclicle java developer in Go developers.
