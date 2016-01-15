@@ -42,7 +42,8 @@ In addition to these concepts, there are other packages/entities/tools which are
 ## Step 5 - Dependencies management
 To manage the dependencies use the [godep tool](https://github.com/tools/godep)
 
-## Step 6 - Conditional building
+## Step 6 - Conditional building - build tags
+Go source code may be built on conditionally, this is, for a same package, compile one source or another according to build tags. Look it here [How to use conditional compilation with the go build tool](http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool).
 
 ## Step 7 - Conditional behavior (flags)
 
