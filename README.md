@@ -9,7 +9,7 @@ I have wrote this short guide to Go why a lot of people increasingly ask me to r
 * [Java is the COBOL of my generation and Go is its successor](https://influxdb.com/blog/2014/04/30/java-is-the-cobol-of-my-generation-and-go-is-its-successor.html)
 
 ## Step 0 - Install Go in your system
-This step varies for each OS (Linux, windos, iOS) and platform (Intel/amd, ARM, ..). Look it here [Go, getting started](https://golang.org/doc/install)
+This step varies for each OS (Linux, Windows, iOS) and platform (Intel/amd, ARM, ..). Look it here [Go, getting started](https://golang.org/doc/install)
 
 ## Step 1 - Understanding the Go context
 Prepare your system to write Go code and manage your workspaces correctly. Look it here [How to Write Go Code](https://golang.org/doc/code.html)
