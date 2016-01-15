@@ -1,4 +1,4 @@
-# Go-learning
+# Go in a shot
 A brief and fucking fast guide to introduce yourself in Go on a dirty way.
 
 ## Motivation
