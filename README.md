@@ -21,7 +21,7 @@ If you are a true programmer, you'll use [Vi](https://blog.gopheracademy.com/vim
 Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
 
 ## Step 4 - Internalise the Go core concepts
-As my old geek friends said, RFM, or in other words, the [Efective Go](https://golang.org/doc/effective_go.html ). Take especial attention to this issues:
+As my old geek friends said, RFM, or in other words, the [Efective Go](https://golang.org/doc/effective_go.html ). Take special attention to this issues:
 
   * runtime.GOMAXPROCS
   * New vs make
