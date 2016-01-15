@@ -2,10 +2,10 @@
 A brief and fucking fast guide to introduce yourself in Go on a dirty way.
 
 ## Step 0 - Install Go in your system
-This step varies for each OS (Linux, windos, iOS) and platform (Intel/amd, ARM, ..). Look this at [Go, getting started](https://golang.org/doc/install)
+This step varies for each OS (Linux, windos, iOS) and platform (Intel/amd, ARM, ..). Look it here [Go, getting started](https://golang.org/doc/install)
 
 ## Step 1 - Understanding the Go context
-Prepare your system to write Go code and manage your workspaces correctly. Look this at [How to Write Go Code](https://golang.org/doc/code.html)
+Prepare your system to write Go code and manage your workspaces correctly. Look it here [How to Write Go Code](https://golang.org/doc/code.html)
 
 ## Step 2 - Ide configuration
 If you are a true programmer, you'll use [Vi](https://blog.gopheracademy.com/vimgo-development-environment/), on the other hand, if you are and hipster programmer, surely you'll prefer [IntelliJ + Go plugin](http://networkstatic.net/installing-golang-ide-support-intellij/). Another good option is [Sublime Text + GoSublime](http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development). In any case, to developing Go software, you only need a text editor and a console to build and execute your code.
