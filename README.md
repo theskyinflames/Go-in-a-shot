@@ -2,7 +2,7 @@
 A brief and fucking fast guide to introduce yourself in Go on a dirty way.
 
 ## Step 0 - Install Go in your system
-This step varies for each os system. Look this at [Go, getting started](https://golang.org/doc/install)
+This step varies for each OS (Linux, windos, iOS) and platform (Intel/amd, ARM, ..). Look this at [Go, getting started](https://golang.org/doc/install)
 
 ## Step 1 - Understanding the Go context
 Prepare your system to write Go code and manage your workspaces correctly. Look this at [How to Write Go Code](https://golang.org/doc/code.html)
