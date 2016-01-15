@@ -32,12 +32,12 @@ As my old geek friends said, RFM, or in other words, the [Efective Go](https://g
   
 In addition to these concepts, there are other packages/entities/tools which are also important for concurrent processes synchronization:
 
-  * sync.Mutex
-  * sync.Once
-  * sync.WorkGroup 
-  * encoding
-  * encoding/json -- [JSON and Go](http://blog.golang.org/json-and-go)
-  * net/http -- [Writing Web Applications](https://golang.org/doc/articles/wiki)
+  * [sync.Mutex](https://golang.org/pkg/sync/)
+  * [sync.Once](https://golang.org/pkg/sync/)
+  * [sync.WorkGroup](https://golang.org/pkg/sync/)
+  * [encoding](https://golang.org/pkg/encoding/)
+  * [encoding/json](https://golang.org/pkg/encoding/json/) -- [JSON and Go](http://blog.golang.org/json-and-go)
+  * [net/http](https://golang.org/pkg/net/http/) -- [Writing Web Applications](https://golang.org/doc/articles/wiki)
   
 ## Step 5 - Dependencies management
 To manage the dependencies use the [godep tool](https://github.com/tools/godep)
