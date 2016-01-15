@@ -2,7 +2,7 @@
 A brief and fucking fast guide to introduce yourself in Go in a dirty way.
 
 ## Motivation
-I have wrote this short guide to Go why a lot of people increasingly ask me to reclicle java developer in Go developers.
+I have wrote this short guide to Go why a lot of people increasingly ask me to reclicle java developers in Go developers.
 
 * [Go for Java Programmers](https://talks.golang.org/2015/go-for-java-programmers.slide#1)
 * [Quick Go-lang for Java Developers](http://blog.christianposta.com/programming/quick-go-lang-for-java-developers/)
