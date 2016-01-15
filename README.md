@@ -11,7 +11,7 @@ Prepare your system to write Go code and manage your workspaces correctly. Look 
 If you are a true programmer, you'll use [Vi](https://blog.gopheracademy.com/vimgo-development-environment/), on the other hand, if you are and hipster programmer, surely you'll prefer [IntelliJ + Go plugin](http://networkstatic.net/installing-golang-ide-support-intellij/). Another good option is [Sublime Text + GoSublime](http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development). In any case, to developing Go software, you only need a text editor and a console to build and execute your code.
 
 ## Step 3 - Facing to Go
-make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
+Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
 
 ## Step 4 - Internalise the Go core concepts
 As my old geek friends said, RFM, or in other words, the [Efective Go](https://golang.org/doc/effective_go.html ). Take especial attention to this issues:
