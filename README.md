@@ -24,7 +24,7 @@ As my old geek friends said, RFM, or in other words, the [Efective Go](https://g
   * Function with multiple return values
   * Interfaces and methods
   * Initialization
-  * Slices vs arrays
+  * Slices vs arrays - [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
   * Channels vs buffered channels
   * Goroutines
   * Anonimous struct attributes (composition relation)
