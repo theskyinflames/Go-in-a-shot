@@ -47,14 +47,14 @@ In addition to these concepts, there are other packages/entities/tools which are
   * [net/http](https://golang.org/pkg/net/http/) -- [Writing Web Applications](https://golang.org/doc/articles/wiki)
   
 ## Step 5 - Dependencies management
-To manage the dependencies use the [godep tool](https://github.com/tools/godep) Look it here [Go Dependencies via Godep](https://devcenter.heroku.com/articles/go-dependencies-via-godep). Basically, tu initialize **godep** in your project to manage its dependencies, follow these steps:
+To manage the dependencies use the [godep tool](https://github.com/tools/godep). Look it here [Go Dependencies via Godep](https://devcenter.heroku.com/articles/go-dependencies-via-godep). Basically, tu initialize **godep** in your project follow these steps:
 
 * Go to your project root folder and do:
 ```sh
 go get -u github.com/tools/godep
 godep save -r ./...
 ```
-* After that, each time you do a --go get mydependeny-- to retrieve a new needed dependency, do --godep save -r ./..-- from your project root folder.
+* After that, each time you do a *go get mydependeny* to retrieve a new needed dependency, do *godep save -r ./..* from your project root folder.
 
 ## Step 6 - Conditional building - build tags
 Go source code may be built conditionally, this is, for a same package, compile one source or another according to build tags. Look it here [How to use conditional compilation with the go build tool](http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool).
