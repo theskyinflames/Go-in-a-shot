@@ -29,7 +29,7 @@ As my old geek friends said, RFM, or in other words, the [Efective Go](https://g
   * Zero values
   * Defer
   * Function with multiple return values
-  * Interfaces and methods
+  * Interfaces and methods
   * Initialization
   * Slices vs arrays - [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
   * Channels vs buffered channels
@@ -61,7 +61,11 @@ Go source code may be built conditionally, this is, for a same package, compile 
 
 ## Step 7 - Conditional behavior (flags)
 
+## Step 9 - Testing
+To implement the unit test, we'll use the [Testify framework](https://github.com/stretchr/testify). It provides *mock* functionality over interfaces and *assert* validations. Once the unit test are implemented, use **go test** tool to execute it.
+
 ## Step 8 - Profiling
+
 
 ## Step 6 - Application life cycle
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
