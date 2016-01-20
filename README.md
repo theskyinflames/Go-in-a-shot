@@ -60,14 +60,18 @@ godep save -r ./...
 Go source code may be built conditionally, this is, for a same package, compile one source or another according to build tags. Look it here [How to use conditional compilation with the go build tool](http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool).
 
 ## Step 7 - Conditional behavior (flags)
+(Pending ...)
 
-## Step 9 - Testing
-To implement the unit test, we'll use the [Testify framework](https://github.com/stretchr/testify). It provides *mock* functionality over interfaces and *assert* validations. Once the unit test are implemented, use **go test** tool to execute it.
+## Step 8 - Testing
+To implement the unit test, we'll use the [*go test* tool](https://golang.org/cmd/go/#hdr-Test_packages). Go provides a basic [testing package](https://golang.org/pkg/testing), but it doesn't offers mocking nor assertion funcionalities. To dispose of them, use the [Testify framework](https://github.com/stretchr/testify). It provides *mock* functionality over interfaces and *assert* validations. 
 
-## Step 8 - Profiling
+## Step 9 - Benchmarking
+(pending)
 
+## Step 10 - Profiling
+(pending)
 
-## Step 6 - Application life cycle
+## Step 11 - Application life cycle
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
 go lint, go vet, go fmt, go build     -> go test -tags local  -> cpu,mem,lock ->  go test -tags integration -> go install
 
