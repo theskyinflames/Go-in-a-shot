@@ -65,10 +65,18 @@ Go source code may be built conditionally, this is, for a same package, compile 
 ## Step 8 - Testing
 To implement the unit test, we'll use the [*go test* tool](https://golang.org/cmd/go/#hdr-Test_packages). Go provides a basic [testing package](https://golang.org/pkg/testing), but it doesn't offers mocking nor assertion funcionalities. To dispose of them, use the [Testify framework](https://github.com/stretchr/testify). It provides *mock* functionality over interfaces and *assert* validations. 
 
+(peding *go test -cover* [The cover story](https://blog.golang.org/cover))
+
 ## Step 9 - Benchmarking
 (pending)
 
 ## Step 10 - Profiling
+(pending)
+
+## Step 11 - Go command
+(pending [Go command](https://golang.org/cmd/go/))
+
+## Step 11 - Go tools
 (pending)
 
 ## Step 11 - Application life cycle
