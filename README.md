@@ -76,10 +76,10 @@ To implement the unit test, we'll use the [*go test* tool](https://golang.org/cm
 ## Step 11 - Go command
 (pending [Go command](https://golang.org/cmd/go/))
 
-## Step 11 - Go tools
+## Step 12 - Go tools
 (pending)
 
-## Step 11 - Application life cycle
+## Step 13 - Application life cycle
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
 go lint, go vet, go fmt, go build     -> go test -tags local  -> cpu,mem,lock ->  go test -tags integration -> go install
 
