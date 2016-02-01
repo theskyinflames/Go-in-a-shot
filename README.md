@@ -90,3 +90,12 @@ To implement the unit test, we'll use the [*go test* tool](https://golang.org/cm
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
 go lint, go vet, go fmt, go build     -> go test -tags local  -> cpu,mem,lock ->  go test -tags integration -> go install
 
+## Appendix
+### Appendix 1 - Go learning resources
+* [The Go wiki](https://golang.org/doc/)
+* [Several Golang learning resources](https://github.com/golang/go/wiki/Learn)
+* [Go Tour](https://tour.golang.org/welcome/1)
+* [Go Faq](https://golang.org/doc/faq)
+* [Golang Bootcamp](http://www.golangbootcamp.com/book/frontmatter)
+* [An introduction to programming in Go](https://www.golang-book.com/books/intro)
+* [Go Programming Language: An Introductory Tutorial](http://www.toptal.com/go/go-programming-a-step-by-step-introductory-tutorial)
