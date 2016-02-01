@@ -20,11 +20,18 @@ If you are a true programmer, you'll use [Vi](https://blog.gopheracademy.com/vim
 ## Step 3 - Facing to Go
 Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
 
-## Step 4 - Internalise the Go core concepts
+## Step 4 - Read the FAQ
+[Go FAQ](https://golang.org/doc/faq)
+
+## Step 5 - Internalise the Go core concepts
 As my old geek friends said, RFM, or in other words, the [Efective Go](https://golang.org/doc/effective_go.html ). Take special attention to this issues:
 
   * runtime.GOMAXPROCS
-  * New vs make
+  * Pointers usage 
+    * [GoLang: When to use string pointers](https://dhdersch.github.io/golang/2016/01/23/golang-when-to-use-string-pointers.html)
+    * [Don't Get Bitten by Pointer vs Non-Pointer Method Receivers in Golang](http://nathanleclaire.com/blog/2014/08/09/dont-get-bitten-by-pointer-vs-non-pointer-method-receivers-in-golang/)
+    * [Golang Faq - pointers](https://golang.org/doc/faq#Pointers)
+  * New vs make - [What's the difference between new and make?](https://golang.org/doc/faq#new_and_make)
   * Type casting vs type assertion vs type switch
   * Zero values
   * Defer
@@ -46,7 +53,7 @@ In addition to these concepts, there are other packages/entities/tools which are
   * [encoding/json](https://golang.org/pkg/encoding/json/) -- [JSON and Go](http://blog.golang.org/json-and-go)
   * [net/http](https://golang.org/pkg/net/http/) -- [Writing Web Applications](https://golang.org/doc/articles/wiki)
   
-## Step 5 - Dependencies management
+## Step 6 - Dependencies management
 To manage the dependencies use the [godep tool](https://github.com/tools/godep). Look it here [Go Dependencies via Godep](https://devcenter.heroku.com/articles/go-dependencies-via-godep). Basically, tu initialize **godep** in your project follow these steps:
 
 * Go to your project root folder and do:
@@ -56,30 +63,30 @@ godep save -r ./...
 ```
 * After that, each time you do a *go get mydependeny* to retrieve a new needed dependency, do *godep save -r ./..* from your project root folder.
 
-## Step 6 - Conditional building - build tags
+## Step 7 - Conditional building - build tags
 Go source code may be built conditionally, this is, for a same package, compile one source or another according to build tags. Look it here [How to use conditional compilation with the go build tool](http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool).
 
-## Step 7 - Conditional behavior (flags)
+## Step 8 - Conditional behavior (flags)
 (Pending ...)
 
-## Step 8 - Testing
+## Step 9 - Testing
 To implement the unit test, we'll use the [*go test* tool](https://golang.org/cmd/go/#hdr-Test_packages). Go provides a basic [testing package](https://golang.org/pkg/testing), but it doesn't offers mocking nor assertion funcionalities. To dispose of them, use the [Testify framework](https://github.com/stretchr/testify). It provides *mock* functionality over interfaces and *assert* validations. 
 
 (peding *go test -cover* [The cover story](https://blog.golang.org/cover))
 
-## Step 9 - Benchmarking
+## Step 10 - Benchmarking
 (pending)
 
-## Step 10 - Profiling
+## Step 12 - Profiling
 (pending)
 
-## Step 11 - Go command
+## Step 13 - Go command
 (pending [Go command](https://golang.org/cmd/go/))
 
-## Step 12 - Go tools
+## Step 14 - Go tools
 (pending)
 
-## Step 13 - Application life cycle
+## Step 15 - Application life cycle
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
 go lint, go vet, go fmt, go build     -> go test -tags local  -> cpu,mem,lock ->  go test -tags integration -> go install
 
