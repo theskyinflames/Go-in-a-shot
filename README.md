@@ -84,7 +84,7 @@ To implement the unit test, we'll use the [*go test* tool](https://golang.org/cm
 (pending [Go command](https://golang.org/cmd/go/))
 
 ## Step 14 - Go tools
-(pending)
+[tools for workging with Go code](https://speakerdeck.com/farslan/tools-for-working-with-go-code?utm_source=golangweekly&utm_medium=email)
 
 ## Step 15 - Application life cycle
 Coding                                -> Testing              -> Profiling    ->  Integrating               -> Deploying
