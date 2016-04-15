@@ -59,7 +59,7 @@ To manage the dependencies use the [godep tool](https://github.com/tools/godep).
 * Go to your project root folder and do:
 ```sh
 go get -u github.com/tools/godep
-godep save -r ./...
+godep save ./...
 ```
 * After that, each time you do a *go get mydependeny* to retrieve a new needed dependency, do *godep save -r ./..* from your project root folder.
 
