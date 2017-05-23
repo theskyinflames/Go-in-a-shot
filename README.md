@@ -8,17 +8,17 @@ I have wrote this short guide to Go why a lot of people increasingly ask me to r
 * [Quick Go-lang for Java Developers](http://blog.christianposta.com/programming/quick-go-lang-for-java-developers/)
 * [Java is the COBOL of my generation and Go is its successor](https://influxdb.com/blog/2014/04/30/java-is-the-cobol-of-my-generation-and-go-is-its-successor.html)
 
-## Step 0 - Install Go in your system
+## Step 0 - Facing to Go
+Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
+
+## Step 1 - Install Go in your system
 This step varies for each OS (Linux, Windows, iOS) and platform (Intel/amd, ARM, ..). Look it here [Go, getting started](https://golang.org/doc/install)
 
-## Step 1 - Understanding the Go context
+## Step 2 - Understanding the Go context
 Prepare your system to write Go code and manage your workspaces correctly. Look it here [How to Write Go Code](https://golang.org/doc/code.html)
 
-## Step 2 - Ide configuration
+## Step 3 - Ide configuration
 If you are a true programmer, you'll use [Vi](https://blog.gopheracademy.com/vimgo-development-environment/), just kidding ;-) , on the other hand, if you are and hipster programmer, surely you'll prefer [IntelliJ + Go plugin](http://networkstatic.net/installing-golang-ide-support-intellij/). Another good option is [Sublime Text + GoSublime](http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development). In any case, to developing Go software, you only need a text editor and a console to build and execute your code.
-
-## Step 3 - Facing to Go
-Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
 
 ## Step 4 - Read the FAQ
 [Go FAQ](https://golang.org/doc/faq)
