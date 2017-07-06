@@ -14,7 +14,7 @@ Make the fucking [Go Tour](https://tour.golang.org/welcome), the whole tour.
 ## Step 1 - Install Go in your system
 This step varies for each OS (Linux, Windows, iOS) and platform (Intel/amd, ARM, ..). Look it here [Go, getting started](https://golang.org/doc/install)
 
-## Step 2 - Understanding the Go context
+## Step 2 - Understanding the Go way
 Prepare your system to write Go code and manage your workspaces correctly. Look it here [How to Write Go Code](https://golang.org/doc/code.html)
 
 ## Step 3 - Ide configuration
@@ -41,11 +41,12 @@ As my old geek friends said, RFM, or in other words, the [Efective Go](https://g
   * Slices vs arrays - [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
   * Channels vs buffered channels
   * Goroutines
+  * Contexts - [Go Concurrency Patterns: Context](https://blog.golang.org/context)
   * Anonimous struct attributes (composition relation)
-  * Errors
+  * Errors - [Error handling and Go](https://blog.golang.org/error-handling-and-go)
   
 In addition to these concepts, there are other packages/entities/tools which are also important for concurrent processes synchronization:
-
+  * [Golang Concurrency Tricks](http://udhos.github.io/golang-concurrency-tricks/)
   * [sync.Mutex](https://golang.org/pkg/sync/)
   * [sync.Once](https://golang.org/pkg/sync/)
   * [sync.WorkGroup](https://golang.org/pkg/sync/)
