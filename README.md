@@ -1,3 +1,5 @@
+# Deprecated - It isn't maintained anymore
+
 # Go in a shot
 A brief and fucking fast guide to introduce yourself in Go in a dirty way.
 
